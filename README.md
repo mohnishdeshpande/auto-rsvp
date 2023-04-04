@@ -14,7 +14,7 @@ Note:
 
 - Credentials go in 'creds.txt'
   Username on 1st line
-  Password on second
+  Password on 2nd line
   
 - As the program is designed to run once every hour,
   You can set the book upcoming events limit to 5, to save time.
