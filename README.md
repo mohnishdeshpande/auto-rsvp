@@ -19,9 +19,9 @@ Note:
   
 - As the program is designed to run once every hour,
   You can set the book upcoming events limit to 5, to save time.
-  - Uncomment lines 76, 77, 78
+  - Uncomment lines 77, 78, 79
   From my experience, some groups have upcoming events scheduled for next several years.
 
 - The script also contains a counter method to RSVP() - unRSVP()
   It can be used to un-RSVP from all the RSVP'ed events
-  - Comment out line 86, Uncomment line 87
+  - Comment out line 87, Uncomment line 88
