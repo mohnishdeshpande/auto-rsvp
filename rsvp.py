@@ -12,12 +12,15 @@ baseURL = 'https://www.meetup.com/'
 with open('creds.txt', 'r') as f:
 	username, password = f.readlines()
 username=username[:-1]
-password=password[:-1]
+if password[-1]=='\n':
+	password=password[:-1]
 
 
 def login():
 	# authenticate if not logged in, else pass
 	try:
+		print(username)
+		print(password)
 		driver.find_element(By.ID, 'login-link').click()
 		driver.find_element(By.ID, 'email').send_keys(username)
 		driver.find_element(By.ID, 'current-password').send_keys(password)
